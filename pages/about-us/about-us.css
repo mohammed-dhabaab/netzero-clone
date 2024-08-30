@@ -99,14 +99,18 @@ inset: 0%;
 }
 .title-mission{
     color:var(--primary-color);
+    font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.6;
+  display: block;
   
 }
 
 .mission-paragraph{
     letter-spacing: -.02em;
-  font-size: 2.5em;
-  font-weight: 700;
-  line-height: 1.1;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.1;
   color:var(--primary-color)
 
 }
@@ -114,5 +118,82 @@ inset: 0%;
   grid-column-gap: 1em;
   align-items: center;
   display: flex;}
+.about-mission-row{
+  justify-content: flex-end;
+  align-items: stretch;
+  padding-left: 2.5em;
+  display: flex;
+  position: relative;
+}
+.about-mission-statement-wrap{
+    color:var(--primary-color);
+  flex: 1;
+  height: auto;
+  padding: 0;
+  position: relative;}
+.about-mission-statement{
+  grid-row-gap: 1.25em;
+  background-color: var( --thirdly-color);
+  border-radius: 1em;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -6.5em;
+  padding: 3em 4em 3em 3em;
+  display: flex;
+  position: absolute;
+  inset: auto auto 0% 0%;}
 
+  .about_mission-stats-row{
+    grid-column-gap: 1.625em;
+  align-items: center;
+  display: flex;
+  }
+  .about_mission-stats{
+    grid-row-gap: 1.5em;
+  background-color: var(--primary-color);
+  color: var(--thirdly-color);
+  border-radius: 1em;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  padding: 1.5em 4em 1.5em 1.5em;
+  display: flex;
+
+  }
+  .about_mission-stats-wrap{
+    flex-direction: column;
+  flex: 0 auto;
+  align-items: flex-end;
+  padding-top: 2.5em;
+  padding-left: 2.5em;
+  display: flex;
+  
+  }
+  .about_mission-stats-number-wrap{
+    width: 5em;
+  }
+  .list-number-mission{
+    
+    letter-spacing: -.02em;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+  .is--lime{
+    color: limegreen;
+  }
+
+  .list-mission{
+    white-space: nowrap;
+  padding-left: 0;
+    font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.6;
+  display: block;
+
+  }
+.list-number-mission{
+  white-space: nowrap;
+  padding-left: 0;
+}
   /*about us */
