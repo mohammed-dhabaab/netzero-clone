@@ -1,1 +1,37 @@
 @import url("../../styling/index.css");
+/*about us header*/
+.about-us-title{
+    color:var(--primary-color)
+}
+
+.about-us-paragraph{
+    color:var(--primary-color)
+}
+/*about us mission wrap*/
+
+.icon-play-video-mission{
+width: 5vw ;
+height: 10vh;
+}
+
+.text-play-link{
+  color: var( --thirdly-color);
+}
+.title-mission{
+    color:var(--primary-color)
+}
+
+.mission-paragraph{
+    letter-spacing: -.02em;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.1;
+  color:var(--primary-color)
+
+}
+.about-mission-play-wrap{
+  grid-column-gap: 1em;
+  align-items: center;
+  display: flex;}
+
+  /*about us */
