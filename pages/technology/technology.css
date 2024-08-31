@@ -98,3 +98,100 @@ body{
   transform: none;
 
 }
+
+/* container is-full-width*/
+
+.is-full-width{
+    max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+
+}
+.tech-white-wrap{
+z-index: 2;
+  background-color: var(--white);
+  border-top-left-radius: 1.125em;
+  border-top-right-radius: 1.125em;
+  margin-bottom: -2em;
+  padding-bottom: 8.25em;
+  position: relative;
+}
+
+.tech-logging{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9em;
+    padding-top: 7.75em;
+    display: flex;
+  
+}
+.tech-logging-graphic{
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 67px;
+    display: flex;
+}
+
+.tech-logging-conteent-wrap{
+    grid-row-gap: 2.5em;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 28.25em;
+  margin-left: -1px;
+  margin-right: 48px;
+  padding-left: 0;
+  display: flex;
+}
+
+.tech-logging-conteent-wrap{
+    grid-row-gap: 1.5em;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+  
+}
+
+.tech-features-treelog-header{grid-row-gap: 1.5em;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .treelog-logo{
+    object-fit: contain;
+    flex: 0 auto;
+    align-self: auto;
+    width: 12em;
+    height: 45px;
+    margin-bottom: -15px;
+    padding-bottom: 0;
+  }
+
+  .tech-features-treelog-title{
+    letter-spacing: -.02em;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.1;}
+  .tech-features-paragraph{
+    color: var(--primary-color);
+  display: block;
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  /*smart tree logging */
+.tech-list-logging-wrap{
+    grid-row-gap: 1em;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+.tech-features-log-list{
+    background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: .5em;
+  padding: .75em 1.5em;
+}
+
+}
