@@ -1,1 +1,100 @@
 @import url("../../styling/index.css");
+
+/*technology-page*/
+*{
+    box-sizing: border-box;
+}
+body{
+    color: var(--primary-color);
+}
+.containner{
+    width: 100%;
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4.375em;
+  padding-right: 4.375em;
+}
+.technology-page{
+    z-index: 1;
+    grid-column-gap: 1.25em;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.25em;
+    padding-top: 10em;
+    display: flex;
+    position: relative;
+}
+
+.technology-page-header{
+    grid-row-gap: 1.5em;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35em;
+    display: flex;
+}
+
+.tech-title{
+    color: var(--primary-color);
+    letter-spacing: -.02em;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.tech-paragraph{
+    color: var(--primary-color);
+    display: block;
+    font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.6;
+  }
+
+
+.technology-features-logo-warp-copy{
+    grid-column-gap: 1.5em;
+    align-items: center;
+    display: flex;
+}
+
+.hedear-treelog-logo{
+    object-fit: contain;
+    flex: 0 auto;
+    align-self: auto;
+    width: 12em;
+    height: 80px;
+  
+}
+
+.hedear-treemap-logo{
+    object-fit: contain;
+    flex: 0 auto;
+    align-self: auto;
+    width: 12em;
+    height: 80px;
+}
+
+.tech-heder-image{
+
+}
+
+.button-see-how{
+    background-color: var(--secondary-color);
+  box-shadow: none;
+  color: var(--primary-color);
+  perspective: 20em;
+  perspective-origin: 50%;
+  border-radius: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 4.3em;
+  padding-left: 2.25em;
+  padding-right: 2.25em;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  transform: none;
+
+}
