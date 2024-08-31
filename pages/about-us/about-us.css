@@ -1,9 +1,11 @@
 @import url("../../styling/index.css");
+
 /*about us header*/
 
 *{
     box-sizing: border-box;
 }
+
 .container{
     width: 100%;
     max-width: 1700px;
@@ -70,20 +72,22 @@ grid-column-gap: 3.75em;
   margin: auto;
   position: absolute;
   inset: -100%;
+  
 }
 .about-mission-video{
-    border-radius: 1em;
-    width: 100%;
-    height: auto;
-    padding-top: 56.25%;
-    position: relative;
+  border-radius: 1em;
+  width: 100%;
+  height: auto;
+  padding-top: 56.25%;
+  position: relative;
+    
 }
 .icon-play-video-mission{
 width: 5em ;
 height: 5em;
 }
 .about-mission-video-overly{
-color: var(--white);
+color: var(--thirdly-color);
 background-color: #0003;
 flex-direction: column;
 justify-content: flex-end;
@@ -130,7 +134,8 @@ inset: 0%;
   flex: 1;
   height: auto;
   padding: 0;
-  position: relative;}
+  position: relative;
+}
 .about-mission-statement{
   grid-row-gap: 1.25em;
   background-color: var( --thirdly-color);
@@ -203,7 +208,7 @@ inset: 0%;
 /*about story*/
 .about-story{
     grid-column-gap: 5em;
-    background-color: var(--white);
+    background-color: var(--thirdly-color);
     border-radius: 1em;
     flex-direction: row;
     margin-bottom: 6.25em;
@@ -233,9 +238,25 @@ inset: 0%;
   position: absolute;
   inset: -100%;
 }
+.tag{
+  border-radius: .25em;
+  padding: .625em;
+  background-color: lightgreen;
+  color: var(--primary-color);
+}
+
 .about-story-tag-wrap{
     position: absolute;
     inset: auto auto 1.5em 1.5em;
+  
+
+}
+.small-tag{
+  letter-spacing: -.02em;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.1;
+  
 }
 
 .about-story-info-wrap{
@@ -278,7 +299,7 @@ inset: 0%;
 .about-goals-main{
     grid-row-gap: 2.5em;
   background-color: var(--primary-color);
-  color: var(--lime-green);
+  color: var(--secondary-color);
   border-radius: 1em;
   flex-direction: column;
   align-items: flex-start;
@@ -295,7 +316,7 @@ inset: 0%;
     font-weight: 700;
     line-height: 1.1;
   }
-  .about-goals-graphic-wrap{
+/* .about-goals-graphic-wrap{
    
 
   }
@@ -303,7 +324,7 @@ inset: 0%;
   .about-goals-graphic{
 
   }
-  
+  */
   .about-goals-grid{
     grid-column-gap: 2.5em;
     grid-row-gap: 2.5em;
