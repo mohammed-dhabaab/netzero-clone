@@ -193,5 +193,62 @@ z-index: 2;
   border-radius: .5em;
   padding: .75em 1.5em;
 }
+/* tree mapping */
+.tech-mapping{
+    background-color: var(--primary-color);
+  color: var(--thirdly-colore);
+  border-radius: 1em;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.25em;
+  padding: 4.625em 3em;
+  display: flex;
 
+}
+.tech-mapping-content{
+    grid-row-gap: 2.5em;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 27.5em;
+  display: flex;
+}
+.tech-features-treemap-header{
+
+}
+.treemap-logo{
+    object-fit: contain;
+    flex: 0 auto;
+    align-self: auto;
+    width: 16em;
+    height: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.tech-features-treemap-paragraph{
+    color: var(--thirdly-color);
+    display: block;
+    font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.tech-mapping-list-wrap{
+  grid-row-gap: 1em;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.tech-features-map-list{
+    background-color:#467355;
+  color: var(--secondary-color);
+    border-radius: .5em;
+    padding: .75em 1.5em;
+}
+
+.tech-mapping-grapgic-wrao{
+    width: 27.1875em;
+  margin-right: 5em;
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
 }
