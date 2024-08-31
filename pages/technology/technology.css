@@ -59,7 +59,9 @@ body{
     align-items: center;
     display: flex;
 }
-
+.video-tech-loging{
+  inset: 0%;
+}
 .hedear-treelog-logo{
     object-fit: contain;
     flex: 0 auto;
