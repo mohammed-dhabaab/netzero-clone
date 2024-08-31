@@ -1,1 +1,50 @@
 @import url("index.css");
+
+/* Hero */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-get-started-button {
+    width: 140px;
+}
+
+.hero-languages-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Recognition */
+.recognition-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.recognition-paragraph {
+    font-weight: 500;
+}
+
+.recognition-companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.recognition-company-logo-container {
+    width: 130px;
+}
