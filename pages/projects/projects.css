@@ -1,1 +1,162 @@
 @import url("../../styling/index.css");
+
+/* Hero */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hero-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register-your-land-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.register-your-land-button {
+    width: 180px;
+}
+
+
+.hero-paragraph {
+    font-weight: 500;
+}
+
+.hero-image {
+    border-radius: 5px;
+}
+
+/* Feature */
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.feature-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-number-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature-number {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.feature-number-paragraph {
+    font-weight: 500;
+}
+
+@media (min-width: 767px) {
+    .feature-container {
+        flex-direction: row;
+    }
+
+    .hero-container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .register-your-land-button-container  {
+        display: block;
+    }
+}
+
+
+/* Projects */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projects-main-container {
+    margin: 40px 0;
+}
+.projects-main-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.projects-paragraph {
+    font-weight: 500;
+}
+
+.projects-main-section-button {
+    width: 180px;
+}
+
+.project-card {
+    background-color: var(--thirdly-color);
+    border-radius: 20px;
+}
+
+.project-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.project-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.trees-planted-container {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.see-more-button {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 15px 15px;
+    border: 1px solid var(--primary-color) ;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.see-more-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width:767) {
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
+}
+
