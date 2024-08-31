@@ -4,22 +4,24 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     color: var(--primary-color);
+   background-color: #F1F7F3;
 }
-.containner{
+.container{
     width: 100%;
   max-width: 1700px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 4.375em;
-  padding-right: 4.375em;
+  padding-right: 4.375em; 
 }
 .technology-page{
     z-index: 1;
     grid-column-gap: 1.25em;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between ;
     align-items: center;
     margin-bottom: 6.25em;
     padding-top: 10em;
@@ -110,7 +112,7 @@ body{
 }
 .tech-white-wrap{
 z-index: 2;
-  background-color: var(--white);
+  background-color: var(--thirdly-color);
   border-top-left-radius: 1.125em;
   border-top-right-radius: 1.125em;
   margin-bottom: -2em;
@@ -251,4 +253,24 @@ z-index: 2;
   vertical-align: middle;
   max-width: 100%;
   display: inline-block;
+}
+ /*Treelog digitized*/
+.padding-digitized{
+    padding-left: 11.3em;
+    padding-right: 11.3em;
+}
+
+.tech-digitizzed{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  
+}
+
+.tech-digitizzed-image-wrap{
+    width: 35.4em;
+}
+.tech-digitizzed-image{
+    width: 100%;
+  height: auto;
 }
