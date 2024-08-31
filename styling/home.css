@@ -26,8 +26,6 @@
     justify-content: center;
 }
 
-
-/* Recognition */
 .recognition-container {
     display: flex;
     flex-direction: column;
@@ -47,4 +45,70 @@
 
 .recognition-company-logo-container {
     width: 130px;
+}
+
+
+/* Impact */
+.impact-container {
+    background-color: var(--primary-color);
+    color: var(--thirdly-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.impact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.impact-number-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.impact-number {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    background-color: var(--bg-thirdly-color);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.impact-number-paragraph {
+    color: rgba(241, 247, 243, 0.6);
+    font-weight: 600;
+    font-size: .90rem;
+}
+
+.impact-title {
+    color: rgb(241, 247, 243);
+}
+
+.impact-paragraph {
+    color: rgba(241, 247, 243, 0.8);
+    font-weight: 500;
+    max-width: 75ch;
+}
+
+.impact-get-started-button {
+    width: 140px;
+}
+
+
+.impact-image {
+    border-radius: 5px;
+    width: 90%;
+}
+
+
+@media (min-width: 767px) {
+    .impact-container {
+        flex-direction: row-reverse;
+    }
 }
